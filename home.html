@@ -1,112 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>html 5</title>
 </head>
-
+<style>
+.main{
+    width: 600px;
+    height: 100px;
+    background-color: red;
+}
+.row1{
+    width: 600px;
+    height: 50px;
+    background-color: yellow;
+}
+.rowc1{
+    width: 300px;
+    height: 50px;
+    background-color: lightcyan ;
+}
+.rowc2{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(150, 26, 142) ;
+}
+.row2{
+width: 600px;
+height: 50px;
+background-color: peachpuff;
+}
+.row2c1{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+.row2c2{
+    width: 400px;
+    height: 50px;
+    background-color: yellow;
+    float: right;
+}
+</style>
 <body>
-    <fieldset>
-        <legend>Enquiry Form</legend>
-        <form action="">
-
-            <label for="">Gender</label>
-            <br>
-            <input type="radio" value="Male" name="Gender">Male
-            <input type="radio" value="Female" name="Gender">Female
-            <br>
-            <label for="">Course</label>
-            <br>
-            <input type="checkbox" value="Php">Php
-            <input type="checkbox" value="Java">Java
-            <input type="checkbox" value="Flutter">Flutter
-            <input type="checkbox" value="CyberSecurity">CyberSecurity
-            <br>
-            <label for="">Name</label>
-            <br>
-            <input type="text" pattern="[a-zA-Z ]{1,10 }" placeholder="Enter The Name" name="uname" />
-            <br>
-            <label for="">Email</label>
-            <br>
-            <input type="email" placeholder="Enter The Email" name="uemil" />
-            <br>
-            <label for="">Phone</label>
-            <br>
-            <input type="tel" pattern="[0-9]{10}" placeholder="Enter The Phone" name="uphone"
-                title="Enter The Valid Phone Number With Digit" />
-            <br>
-            <label for="">Messege</label>
-            <br>
-            <textarea name="" pattern="[a-z A-Z]{10}" placeholder="Enter The Messege"></textarea>
-            <br>
-
-            <label for="">Photo</label>
-            <br>
-            <input type="file">
-            <br>
-
-            <label for="">Password</label>
-            <input type="password" title="Please Enter The correct password">
-            <br>
-
-            <label for="">Country</label>
-            <br>
-            <select name="" id="">
-                <option>--------Select Country-----------</option>
-                <option value="pakistan">pakistan</option>
-                <option value="iran">iran</option>
-                <option value="iraq">iraq</option>
-                <option value="turkey">turkey</option>
-                <option value="aghan">afghan</option>
-                <option value="japan">japan</option>
-                <option value="india">india</option>
-                <option value="china">china</option>
-                <option value="dubai">dubai</option>
-            </select>
-<br>
-            <label for="">Course</label>
-            <br>
-           <select name="" id="">
-             <optgroup label="Frontend">
-                <option >Html</option>
-                 <option >Css</option>
-                  <option >JavaScript</option>
-                   <option >React</option>
-            </optgroup>
-             <optgroup label="Backend">
-                <option >Php</option>
-                 <option >Node</option>
-                  <option >MySQL</option>
-            </optgroup>
-           </select>
-            <br>
-            <button type="submit">Save</button>
-            <input type="submit" value="Go">
-
-
-        </form>
-    </fieldset>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="app.js"></script>
-</body>
-
+    <div class="main">
+<div class="row1">
+<div class="rowc1">home </div>
+    <div class="rowc2">about </div>
+<div class="row2">
+    <div class="row2c1">course</div>
+     <div class="row2c2">course</div>
+</div>
+</div>
+    </div>
+    
 </html>
