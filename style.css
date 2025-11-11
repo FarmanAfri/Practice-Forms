@@ -1,0 +1,99 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Young+Serif&display=swap'); */
+
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center/cover;
+      font-family: Poppins, sans-serif;
+    }
+
+    #dv-1 {
+      position: relative;
+      width: 400px;
+      height: 420px;
+      border: 2px solid rgba(255,255,255,0.4);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      background: rgba(255,255,255,0.1);
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      transition: all 0.5s ease;
+      overflow: hidden;
+    }
+
+    #dv-1:hover {
+      border-color: #00ffff;
+      box-shadow: 0 0 40px #00ffff88;
+    }
+
+    #fill {
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      transition: all 0.6s ease;
+    }
+
+    #dv-1:hover #fill {
+      top: 50%;
+      transform: translate(-50%, -50%) scale(1.1);
+      background: linear-gradient(135deg, #00ffff, #0077ff);
+      color: #000;
+      box-shadow: 0 0 15px #00ffff;
+    }
+
+    form {
+      border: 2px solid rgba(255,255,255,0.3);
+      width: 300px;
+      height: 340px;
+      background: rgba(255,255,255,0.1);
+      margin: 60px auto 0;
+      border-radius: 15px;
+      padding: 15px;
+      transition: all 0.5s ease;
+    }
+
+    form:hover {
+      background: rgba(255,255,255,0.25);
+      border-color: #00ffff;
+    }
+
+    label {
+      font-size: 15px;
+      color: white;
+      display: block;
+      margin: 8px 0 3px 5px;
+    }
+
+    input {
+      width: 100%;
+      height: 35px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      border: none;
+      background: rgba(255,255,255,0.7);
+      padding: 0 10px;
+      font-size: 15px;
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      outline: none;
+      background: #fff;
+      box-shadow: 0 0 10px #00ffff;
+    }
